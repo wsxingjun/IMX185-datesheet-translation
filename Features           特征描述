@@ -1,0 +1,25 @@
+=================================================
+Features           特征描述
+*cmos有源像素点
+*内置时序调整电路，H / V驱动器和串行通信电路
+* 输入时钟频率：27MHz/54MHz/37.125MHz/74.25MHz
+* 推荐记录像素数：1920 x 1200 近似.2.31M像素
+* 读出模式：（图像数据输出格式）
+	【1】All-pixel Scan Mode 全像素扫描模式
+	【2】Horizontal / vertical 2/2-line Binning Readout Mode 
+	【3】水平/垂直2/2线分档读出模式
+	【4】1080p-HD Mode 1080P高清模式
+	【5】720p-HD Mode 720P高清模式
+	【6】Window Cropping Mode 窗口裁剪模式
+* 数据吞吐速率
+	1080p-HD模式下最大的帧率：120fps
+* 可变速快门功能（分辨率是1H为单位）
+* 10/12 位ADC
+* CDS/PGA 功能
+	0db~24dB：模拟增益 24dB(0.3db步进)
+	24.3dB~ 48dB:模拟增益 24dB + 数字增益 0.3-24dB(0.3db步进)
+*支持I/O转换
+	低电压LVDS(150mVp-p) 并行DDR输出
+	低电压LVDS(150mVp-p) 串行（2ch/4ch 转换）DDR输出
+	CSI-2 串行数据输出（2 Lane /4Lane ,RAW10/RAW12 输出）
+*推荐镜片焦距：2.8mm以上
