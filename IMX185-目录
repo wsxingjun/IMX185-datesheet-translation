@@ -1,0 +1,108 @@
+目录：
+|Description        描述
+|Features           特征描述
+|Device Structure   设备结构
+|Absolute Maximum Ratings  绝对最大额定值
+|Recommended Operating Conditions  推荐工作条件
+|USE RESTRICTION NOTICE 使用说明注意
+|Chip Center and Optical Center  芯片中心和光中心
+|Pixel Arrangement 像素排列
+|Block Diagram and Pin Configuration  框图和引脚配置
+|Pin Description  引脚说明
+|Electrical Characteristics 电气特性
+	|DC Characteristics 直流参数
+	|Power Consumption  功耗
+	|AC Characteristics 交流参数
+		|Master Clock Waveform Diagram  主时钟波形图
+		|XVS / XHS Input Characteristics In Slave Mode (XMASTER pin = High)
+		      XVS / XHS输入特性在从模式下（XMASTER引脚=高电平）
+		|Serial Communication 串行通信
+|I/O Equivalent Circuit Diagram   I / O等效电路图 
+|Spectral Sensitivity Characteristics 光谱灵敏度特性
+|Image Sensor Characteristics 图像传感器特性
+	|--Video Shading Zone Definition 视频阴影区定义
+|Image Sensor Characteristics Measurement Method 图像传感器特性测量方法	
+	|--Measurement Conditions 测量条件
+	|--Color Coding of Physical Pixel Array 物理像素阵列的颜色编码
+	|--Definition of standard imaging conditions 标准成像条件的定义
+	|--Measurement Method测量方法
+|Setting Registers with Serial Communication 使用串行通信设置寄存器	
+	|--Description of Setting Registers (4-wire)  设置寄存器说明
+	|--Register Communication Timing (4-wire) 寄存器通信时序（4线）
+	|--Register Write and Read (4-wire)寄存器写和读（4线）
+	|--Description of Setting Registers (I2C)设置寄存器（I2C）
+	|--Register Communication Timing (I2C) 寄存器通信时序（I2C）
+	|--I2C Communication Protocol I2C通信协议
+	|--I2C Serial Communication Read/Write Operation I2C串行通信读/写操作
+		|--Single Read from Random Location 从随机位置单读
+		|--Single Read from Current Location 从当前位置单次读取
+		|--Sequential Read Starting from Random Location 从随机位置开始的顺序读取
+		|--Sequential Read Starting from Current Location 从当前位置开始的顺序读取
+	|--Single Write to Random Location 单写入随机位置
+	|--Sequential Write Starting from Random Location 从随机位置开始的顺序写入
+Register Map 寄存器映射
+Readout Drive Modes 读出驱动模式
+	Sync Code 同步代码 
+	Sync Code Output Timing  同步码输出时序
+	Image Data Output Format 图像数据输出格式
+		Frame Format 帧格式
+		Frame Structure 帧结构
+		Embedded Data Line 嵌入式数据线
+	Image Data Output Format 图像数据输出格式
+		All-pixel Scan Mode 全像素扫描模式
+		Horizontal / vertical 2/2-line Binning Readout Mode 水平/垂直2/2线分档读出模式
+		1080p-HD Mode 1080P高清模式
+		720p-HD Mode 720P高清模式
+		Window Cropping Mode 窗口裁剪模式
+Description of Various Function 各种功能的说明
+	Standby Mode 待机模式
+	Slave Mode and Master Mode 从模式和主模式
+	Gain Adjustment Function 增益调整功能
+	Black Level Adjustment Function 黑电平调整功能
+	Vertical Normal Operation and Inverted Drive 垂直正常操作和反向驱动
+	Horizontal Normal Operation and Inverted Drive 水平正常操作和反向驱动
+	Shutter and Integration Time Settings 快门和积分时间设置
+		Example of Integration Time Setting 积分时间设置示例
+	Normal Exposure Operation (Controlling the Integration Time in 1H Units) 正常曝光操作（以1H为单位控制积分时间）
+	Long Exposure Operation (Control by Expanding the Number of Lines per Frame) 长时间曝光操作（通过扩展每帧的线数控制）
+		Example of Integration Time Settings 积分时间设置示例
+	Signal Output 信号输出
+		Output Pin Settings 输出引脚设置
+		CSI-2 serial Output Setting CSI-2串行输出设置
+		MIPI Transmitter  MIPI 传送
+		Output Pin Bit Width Selection (Low voltage LVDS output) 输出引脚位宽选择（低电压LVDS输出）
+		Number of Internal A/D Conversion Bits Setting 多个内部A / D转换的位设置
+		Output Bit Shift (Low voltage LVDS output) 输出相位（低电压LVDS输出）
+		Output Rate Setting 输出速率设置
+		Output Signal Range 输出信号范围
+	INCK Setting INCK设置
+	Register Hold Setting 寄存器保持设置
+	Software Reset (Low voltage LVDS output) 软件复位（低电压LVDS输出）
+	Mode Transitions (Low voltage LVDS output) 模式转换（低电压LVDS输出）
+	Mode Transitions (CSI-2 Serial output) 模式转换（CSI-2串行输出）
+Power-on and Power-off Sequences  开机和关机时序
+	Power-on Sequence  开机时序
+	Power-off Sequence 关机时序
+	Sensor Setting Flow 传感器设置流程
+		Setting Flow in Sensor Slave Mode 传感器从模式的设定流程图
+		Setting Flow in Sensor Master Mode 传感器主模式下设置流程
+Peripheral Circuit 外围电路
+	Power Pins 电源引脚
+	Output Pins 输出引脚
+	Serial Communication Pins 串行通信引脚 
+	Other Pins  其他引脚
+Spot Pixel Specifications 像素点格式定义
+ 	Zone Definition 区域定义
+Notice on White Pixels Specifications 白像素格式的注意事项
+Measurement Method for Spot Pixels 像素点的测量方法
+Spot Pixel Pattern Specifications 像素点的图案格式
+Stain Specifications 染色规格
+	Stain Zone Definition 染色区域定义
+	Stain Measurement Method 染色测量方法
+Example of CRA Characteristics CRA特性的示例
+Marking 标记
+Notes On Handling 处理注意事项
+Package Outline 封装外形
+
+	
+	
